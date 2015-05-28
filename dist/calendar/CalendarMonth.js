@@ -42,6 +42,7 @@ var _utilsPureRenderMixin = require('../utils/PureRenderMixin');
 
 var _utilsPureRenderMixin2 = _interopRequireDefault(_utilsPureRenderMixin);
 
+_momentRange2['default'].locale('ru');
 var lang = (0, _momentRange2['default'])().localeData();
 
 var WEEKDAYS = _immutable2['default'].List(lang._weekdays).zip(_immutable2['default'].List(lang._weekdaysShort));
